@@ -1,0 +1,96 @@
+﻿/* 
+
+Copyright Reserved By Varun Kumar
+
+*/
+
+#on_top_0 {z-index:0;}
+#on_top_1 {z-index:1;}
+#on_top_2 {z-index:2;}
+#on_top_3 {z-index:3;}
+   
+a:link {color:#a3687b;text-decoration:none;}
+a:active {color:#a3687b;text-decoration:none;}
+a:hover {color:#a3687b;text-decoration:none;}
+a:visited {color:#a3687b;text-decoration:none;}
+
+img   { border:none; }
+
+footer { position:absolute; left:590px; top:800px; font-family:verdana; font-size:9px; color:#444; opacity: 0.9;}
+
+input[type=image] { border: none; }
+
+*:focus { outline: none; }
+
+input { border:none; padding:0; font-size:15px; color:gray; }
+
+textarea {border:1px solid black;padding:0;}
+
+body  { margin:0;padding:0;word-wrap:break-word; }
+
+footer { position:absolute; left:590px; top:800px; font-family:verdana; font-size:9px; color:#444; }
+
+@font-face { font-family: 'Latha'; src: url('wpscripts/wp5d9604e4.ttf'); }
+
+*{box-sizing:content-box; -moz-box-sizing:content-box; -webkit-box-sizing:content-box; -ms-box-sizing:content-box;}
+
+.DefaultParagraph { text-align:left;margin:0px;text-indent:0.0px;line-height:1px;font-family:"Verdana", sans-serif;font-style:normal;font-weight:normal;color:#000000;background-color:transparent;font-variant:normal;font-size:16.0px;vertical-align:0; }
+
+.Artistic-Body { text-align:left;margin:0px;text-indent:0.0px;line-height:1px;font-family:"Verdana", sans-serif;font-style:normal;font-weight:normal;color:#000000;background-color:transparent;font-variant:normal;font-size:16.0px;vertical-align:0; }
+
+.Body { text-align:left;margin:0px 0px 12px;text-indent:0.0px;line-height:1px;font-family:"Verdana", sans-serif;font-style:normal;font-weight:normal;color:#000000;background-color:transparent;font-variant:normal;font-size:16.0px;vertical-align:0; }
+
+.Normal { text-align:left;margin:0px;text-indent:0.0px;line-height:1px;font-family:"Verdana", sans-serif;font-style:normal;font-weight:normal;color:#000000;background-color:transparent;font-variant:normal;font-size:16px;vertical-align:0; }
+
+.C-1 { line-height:16.00px;font-family:"Trebuchet MS", sans-serif;font-style:normal;font-weight:700;color:#61a993;background-color:transparent;text-decoration:none;font-variant:normal;font-size:10.7px;vertical-align:0;letter-spacing:6.34px; }
+
+.OBJ-1 { background-color:#f0f0f0;background:#f0f0f0; }
+
+.Logo { text-align:left;margin:0px;text-indent:0.0px;line-height:1px;font-family:"Georgia", serif;font-style:normal;font-weight:normal;color:#83b41a;background-color:transparent;font-variant:normal;font-size:45.0px;vertical-align:0;letter-spacing:1.47px; }
+
+.Logo-1 { text-align:center;margin:0px;text-indent:0.0px;line-height:1px;font-family:"Trebuchet MS", sans-serif;font-style:normal;font-weight:normal;color:#648215;background-color:transparent;font-variant:normal;font-size:11.0px;vertical-align:0;letter-spacing:8.00px; }
+
+
+.search_bar { z-index:3; width:170px;height:25px;border-radius:3px;position:absolute; border:none; padding:3px 36px 3px 115px;background-color: #eeeeee; font-family:Tahoma;text-align:left;font-size:14px; }
+
+
+select { height:20px; width:auto; text-align:center; font-weight:bold; font-family:calibri; font-size:14px; cursor:pointer; text-align:center !important; display: block !important; padding: 4px 33px 4px 10px !important;  border: transparent; background: url(arr1.png)no-repeat;background-size:12px;border:none; background-position:75% 50%; background-color: #eeeeee !important; color: #444 !important; opacity:0.8; line-height: 16px !important; appearance: none !important; -webkit-appearance: none !important; -moz-appearance: none !important; } 
+option{margin:2px; padding:5px; border:none; outline-color:none; }
+select::-ms-expand { display: none !important; } 
+select:disabled::-ms-expand { background: #f60 !important; }
+
+
+.dropbtn { color: white; padding: 14px 20px 14px 10px; font-size: 14px; border: 1px transparent;	background: url(arrow1.png)right center no-repeat; background-size:10px;border:0px;padding 0px 5px 0px 0px;background-position:65% 55%; }
+	
+	
+.dropbtn1 { background-color: transparent; color: white; padding: 14px 20px 14px 10px; font-size: 14px; border: 1px transparent; background: url(arrow1.png)right center no-repeat; background-size:10px;border:0px;padding 0px 5px 0px 0px;background-position:69% 55%; }
+		
+		
+.dropbtn2 { background-color: transparent; color: white; padding: 14px 20px 14px 10px; font-size: 14px; border: 1px transparent; background: url(arrow1.png)right center no-repeat; background-size:10px;border:0px;padding 0px 5px 0px 0px;background-position:75% 55%; }
+
+
+.dropdown { position: relative; display: inline-block;}
+.dropdown-content { display: none; position: absolute; background-color: #f1f1f1; min-width: 150px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1; }
+.dropdown-content a { color: black; padding: 12px 16px; text-decoration: none; display: block; }
+.dropdown-content a:hover {background-color: rgb(97,169,146);opacity:0.9;color:white; font-family:calibri;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover  {background-color: rgb(97,169,146);}
+	
+	
+.paragraph_style {padding:20px; top: 700px; height: 300px; width: 300px; position: absolute; border-left: 2px solid gray; border-bottom: 2px solid gray; background-color:#D4D4D2; opacity: 0.15; }	
+	
+.paragraph_text { top: 700px; height: 300px; width: 300px; position: absolute; opacity: 1; padding:20px;  text-align:justify;opacity:0.8; overflow: auto; text-overflow: clip; }
+	
+.div_review_style {padding:20px;  height: 500px; width: 600px; position: absolute; border:1px solid gray; background-color:#D4D4D2; opacity: 0.15;  }	
+
+.review_style {text-align:left; padding:20px 20px 20px 50px;;  height: 500px; width: 600px; position: absolute; }	
+
+
+.checked { color: orange; }
+	
+.search_button {border:none; background:url('sea1.png')no-repeat;background-size:20px;opacity: 0.4; filter: alpha(opacity=60);z-index:6; outline:none;}
+.search_button:hover {background:url('sea1.png')no-repeat; background-size:20px;opacity: 0.6; filter: alpha(opacity=80);}
+.search_button:active{background:url('sea1.png')no-repeat; background-size:20px;opacity: 0.8; filter: alpha(opacity=100);}
+.search_button:focus{background:url('sea1.png')no-repeat; background-size:20px;opacity: 0.8; filter: alpha(opacity=100);}
+	
+
